@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "diplom-intro-mlops"
+version = "0.1.0"
+description = ""
+authors = ["andre"]
+readme = "README.md"
+packages = [{include = "calculadora"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
